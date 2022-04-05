@@ -1,13 +1,12 @@
-html{
+html {
     height: auto;
 }
 
-body{
+body {
     background-image: url(pexels-mikhail-nilov-7988667.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: block;
 }
 
 .container {
@@ -18,7 +17,7 @@ body{
     font-size: 20px;
 }
 
-p{
+p {
     margin-bottom: 10px;
     margin-top: 10px;
     /* font-weight: bold; */
@@ -36,7 +35,7 @@ p{
     margin-bottom: 30px;
 }
 
-form{
+form {
     width: 85%;
     background-color: rgba(255, 255, 255, 0.781);
     border-radius: 10px;
@@ -45,7 +44,7 @@ form{
     padding-top: 20px;
 }
 
-input{
+input {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -59,15 +58,15 @@ input{
     width: 100%;
 }
 
-#email{
+#email {
     width: 100%;
 }
 
-#number{
+#number { 
     width: 100%;
 }
 
-select{
+select {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -78,15 +77,18 @@ select{
     cursor: pointer;
 }
 
-textarea{
+textarea {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 10px;
     border-radius: 5px;
+    resize: vertical;
+    min-height: 20px;
+    max-height: 100px;
 }
 
-#submit{
+#submit {
     width: 100%;
     background-color:#4CAF50;
     color: white;
@@ -99,12 +101,12 @@ textarea{
     font-size: 17px;
 }
 
-.prefer label{
+.prefer label {
     display: flex;
     cursor: pointer;
 }
 
-.user-recommend label{
+.user-recommend label {
     cursor: pointer;
 }
 
